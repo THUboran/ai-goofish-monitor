@@ -1,0 +1,19 @@
+{
+  "name": "dsh-xianyu-monitor",
+  "version": "0.1.0",
+  "description": "闲鱼商品监控 + AI 捡漏判定（DSH 工具插件，对接本地 ai-goofish-monitor 后端）",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": "*",
+    "@deepseek-ai/dsh-tools": "*"
+  }
+}

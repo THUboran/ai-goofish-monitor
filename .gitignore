@@ -15,3 +15,10 @@ prompts/
 .serena/
 price_history/
 data/
+
+# === DSH 插件与本地运行时（2026-10-29 新增，避免推运行时/密钥/大文件）===
+.venv/
+.pw-browsers/
+run.log
+node_modules/
+*.log

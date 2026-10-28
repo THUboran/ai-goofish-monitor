@@ -1,0 +1,8 @@
+# dsh-xianyu-monitor profile patch — insert the loader entry for this plugin.
+- insert:
+    - id: xianyu-monitor
+      name: 'dsh-xianyu-monitor'
+      config:
+        baseURL: http://127.0.0.1:8000
+        defaultAccount: acc_main
+        maxWaitMinutes: 15
